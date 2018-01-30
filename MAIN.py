@@ -13,6 +13,7 @@ from matplotlib.legend_handler import HandlerLine2D
 
 
 # this should have been done more clear but I was extremely sick of it
+# hence review needed
 
 def draw_grid():
     x = np.linspace(0, SCREENWIDTH, 41)
