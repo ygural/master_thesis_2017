@@ -44,6 +44,7 @@ MEAS_POINT_COORDS[(i + 1) % MEAS_POINT_COORDS.shape[0]]
 
 '''
 
+# looks like tons of disordered ideas
 """
  Fancy way to store meas_points in dictionary with the key prior to pos
 f = open('map_of_AP.ini', 'r')

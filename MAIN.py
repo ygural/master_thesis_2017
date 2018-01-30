@@ -12,6 +12,8 @@ from matplotlib import pyplot as plt
 from matplotlib.legend_handler import HandlerLine2D
 
 
+# this should have been done more clear but I was extremely sick of it
+
 def draw_grid():
     x = np.linspace(0, SCREENWIDTH, 41)
     y = np.linspace(0, SCREENHEIGHT, 61)
@@ -19,7 +21,6 @@ def draw_grid():
         pygame.draw.line(screen, GREY, [vert, 0], [vert, SCREENHEIGHT])
     for horiz in y[1:-2]:
         pygame.draw.line(screen, GREY, [0, horiz], [SCREENWIDTH, horiz])
-
 
 
 def convert_to_m(x):
